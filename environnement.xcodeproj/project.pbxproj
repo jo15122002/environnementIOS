@@ -15,6 +15,8 @@
 		ED6CA23529389A5A0057EEFB /* environnementUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6CA23429389A5A0057EEFB /* environnementUITests.swift */; };
 		ED6CA23729389A5A0057EEFB /* environnementUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6CA23629389A5A0057EEFB /* environnementUITestsLaunchTests.swift */; };
 		ED6CA24429389AE30057EEFB /* Downloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6CA24329389AE30057EEFB /* Downloader.swift */; };
+		ED6CA2462938B3E30057EEFB /* Vue2.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6CA2452938B3E30057EEFB /* Vue2.swift */; };
+		ED6CA2482938B71A0057EEFB /* NetworkStateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6CA2472938B71A0057EEFB /* NetworkStateManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,8 @@
 		ED6CA23429389A5A0057EEFB /* environnementUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = environnementUITests.swift; sourceTree = "<group>"; };
 		ED6CA23629389A5A0057EEFB /* environnementUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = environnementUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		ED6CA24329389AE30057EEFB /* Downloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Downloader.swift; path = ../../Observable/Observable/Downloader.swift; sourceTree = "<group>"; };
+		ED6CA2452938B3E30057EEFB /* Vue2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vue2.swift; sourceTree = "<group>"; };
+		ED6CA2472938B71A0057EEFB /* NetworkStateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkStateManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,10 +101,12 @@
 			isa = PBXGroup;
 			children = (
 				ED6CA24329389AE30057EEFB /* Downloader.swift */,
+				ED6CA2472938B71A0057EEFB /* NetworkStateManager.swift */,
 				ED6CA21929389A570057EEFB /* environnementApp.swift */,
 				ED6CA21B29389A570057EEFB /* ContentView.swift */,
 				ED6CA21D29389A590057EEFB /* Assets.xcassets */,
 				ED6CA21F29389A590057EEFB /* Preview Content */,
+				ED6CA2452938B3E30057EEFB /* Vue2.swift */,
 			);
 			path = environnement;
 			sourceTree = "<group>";
@@ -262,7 +268,9 @@
 			files = (
 				ED6CA21C29389A570057EEFB /* ContentView.swift in Sources */,
 				ED6CA21A29389A570057EEFB /* environnementApp.swift in Sources */,
+				ED6CA2482938B71A0057EEFB /* NetworkStateManager.swift in Sources */,
 				ED6CA24429389AE30057EEFB /* Downloader.swift in Sources */,
+				ED6CA2462938B3E30057EEFB /* Vue2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

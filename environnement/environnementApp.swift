@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct environnementApp: App {
+    @StateObject var networkManager = NetworkStateManager()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView().onAppear {
+                networkManager.listenForConnextionState()
+            }.environmentObject(networkManager)
         }
     }
 }
