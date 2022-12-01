@@ -7,13 +7,19 @@
 
 import SwiftUI
 
+
 struct ContentView: View {
+    
+    var downloader = Downloader()
+    
     var body: some View {
         VStack {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            Text("Hello, world!").onTapGesture {
+                downloader.listenForConnextionState()
+            }
         }
         .padding()
     }
